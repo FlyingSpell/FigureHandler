@@ -37,7 +37,7 @@ namespace FigureHandler
 
             if(figure == null)
             {
-                string msg = $"There are no acceptable figure creator for parameters [{String.Join(", ", lengths)}]";
+                string msg = $"There is no acceptable figure creator for parameters [{String.Join(", ", lengths)}]";
 
                 throw new CouldNotCreateFigureException(msg);
             }
