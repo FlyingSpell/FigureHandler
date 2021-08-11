@@ -1,0 +1,7 @@
+SELECT
+    productName, categoryName
+FROM Products
+UNION
+SELECT
+    productName, categoryName
+FROM Categories
